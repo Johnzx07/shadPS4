@@ -1,0 +1,98 @@
+name: Build shadPS4 Emulator
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    env:
+      QT_PATH: "C:\\Qt\\6.7.2\\msvc2019_64"
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          submodules: recursive  # Ensure submodules are also checked out
+
+      - name: Set up MSYS2
+        uses: msys2/setup-msys2@v2
+        with:
+          update: true
+          install: >-
+            git
+            mingw-w64-x86_64-binutils
+            mingw-w64-x86_64-clang
+            mingw-w64-x86_64-cmake
+            mingw-w64-x86_64-ninja
+            mingw-w64-x86_64-ffmpeg
+            mingw-w64-x86_64-qt6-base
+            mingw-w64-x86_64-qt6-tools
+            mingw-w64-x86_64-qt6-multimedia
+
+      - name: Install Visual Studio
+        uses: microsoft/setup-msbuild@v1
+
+      - name: Set up Qt
+        run: |
+          curl -L -o qt-installer.exe https://download.qt.io/official_releases/online_installers/qt-unified-windows-x64-online.exe
+          qt-installer.exe --silent --accept-licenses \
+            --root ${{ env.QT_PATH }}
+
+      - name: Configure Qt in Visual Studio
+        run: |
+          # Sets up the Qt path within Visual Studio
+          $qtVersion = "${{ env.QT_PATH }}"
+          & "C:\Program Files\Qt\Tools\QtCreator\bin\qtcreator.exe" --configure $qtVersion
+
+      - name: Build shadPS4 (Visual Studio)
+        shell: bash
+        run: |
+          cmake -S . -B build -G "Visual Studio 17 2022" -A x64 \
+            -DCMAKE_PREFIX_PATH="${{ env.QT_PATH }}" \
+            -DENABLE_QT_GUI=ON
+          cmake --build build --config Release
+
+      - name: Deploy Qt dependencies (Visual Studio)
+        run: |
+          "${{ env.QT_PATH }}\bin\windeployqt.exe" build/shadps4.exe
+
+      - name: MSYS2 Build (x86)
+        shell: msys2 {0}
+        run: |
+          git clone --depth 1 --recursive https://github.com/shadps4-emu/shadPS4
+          cd shadPS4
+          cmake -S . -B build -G Ninja \
+            -DCMAKE_C_COMPILER="clang.exe" \
+            -DCMAKE_CXX_COMPILER="clang++.exe" \
+            -DCMAKE_CXX_FLAGS="-O2 -march=native" \
+            -DENABLE_QT_GUI=ON
+          cmake --build build
+          windeployqt6 build/shadps4.exe
+
+      - name: MSYS2 Build (ARM64)
+        shell: msys2 {0}
+        run: |
+          git clone --depth 1 --recursive https://github.com/shadps4-emu/shadPS4
+          cd shadPS4
+          cmake -S . -B build -G Ninja \
+            -DCMAKE_C_COMPILER="clang.exe" \
+            -DCMAKE_CXX_COMPILER="clang++.exe" \
+            -DCMAKE_CXX_FLAGS="-O2 -march=native" \
+            -DENABLE_QT_GUI=ON
+          cmake --build build
+          windeployqt6 build/shadps4.exe
+
+      - name: Archive build artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: shadPS4-emulator
+          path: |
+            build/x64-Clang-Release/shadps4.exe
+            build
