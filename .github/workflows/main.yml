@@ -1,0 +1,56 @@
+name: Build shadPS4 Emulator
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v2
+
+    - name: Set up Visual Studio 2022
+      uses: microsoft/setup-msbuild@v1
+
+    - name: Install Qt
+      shell: bash
+      run: |
+        curl -L -o qt-installer.exe https://download.qt.io/official_releases/online_installers/qt-unified-windows-x64-online.exe
+        ./qt-installer.exe --silent --accept-licenses --root "C:/Qt/6.7.2/msvc2019_64"
+
+    - name: Set Qt Environment Variables
+      shell: bash
+      run: |
+        echo "QT_PATH=C:/Qt/6.7.2/msvc2019_64" >> $GITHUB_ENV
+        echo "MYSYSTEM=MINGW64" >> $GITHUB_ENV
+
+    - name: Install Git for Windows
+      run: |
+        choco install git -y
+
+    - name: Clone the Repository
+      run: |
+        git clone --recursive https://github.com/shadps4-emu/shadPS4
+        cd shadPS4
+
+    - name: Configure CMake for Visual Studio
+      run: |
+        cmake -S . -B build -G "Ninja" -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH="${{ env.QT_PATH }}" -DENABLE_QT_GUI=ON -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++
+
+    - name: Build shadPS4
+      run: cmake --build build --target shadps4.exe
+
+    - name: Deploy Qt Libraries (Optional)
+      run: |
+        "${{ env.QT_PATH }}/bin/windeployqt.exe" build/shadps4.exe
+        # Adjust the path to windeployqt.exe if necessary
+
+    - name: Run shadPS4 (Optional)
+      run: ./build/shadps4.exe
