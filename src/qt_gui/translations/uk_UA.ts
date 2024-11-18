@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="nb">
+<TS version="2.1" language="uk_UA">
 	<!-- SPDX-FileCopyrightText: Copyright 2024 shadPS4 Emulator Project
          SPDX-License-Identifier: GPL-2.0-or-later -->
 	<context>
@@ -8,7 +8,7 @@
 		<message>
 			<location filename="../about_dialog.ui" line="16"/>
 			<source>About shadPS4</source>
-			<translation>About shadPS4</translation>
+			<translation>Про shadPS4</translation>
 		</message>
 		<message>
 			<location filename="../about_dialog.ui" line="60"/>
@@ -18,12 +18,12 @@
 		<message>
 			<location filename="../about_dialog.ui" line="78"/>
 			<source>shadPS4 is an experimental open-source emulator for the PlayStation 4.</source>
-			<translation>shadPS4 is an experimental open-source emulator for the PlayStation 4.</translation>
+			<translation>shadPS4 - це експериментальний емулятор з відкритим вихідним кодом для PlayStation 4.</translation>
 		</message>
 		<message>
 			<location filename="../about_dialog.ui" line="99"/>
 			<source>This software should not be used to play games you have not legally obtained.</source>
-			<translation>This software should not be used to play games you have not legally obtained.</translation>
+			<translation>Це програмне забезпечення не повинно використовуватися для запуску ігор, котрі ви отримали не легально.</translation>
 		</message>
 	</context>
 	<context>
@@ -31,7 +31,7 @@
 		<message>
 			<location filename="../elf_viewer.cpp" line="45"/>
 			<source>Open Folder</source>
-			<translation>Open Folder</translation>
+			<translation>Відкрити папку</translation>
 		</message>
 	</context>
 	<context>
@@ -39,17 +39,17 @@
 		<message>
 			<location filename="../game_info.cpp" line="26"/>
 			<source>Loading game list, please wait :3</source>
-			<translation>Loading game list, please wait :3</translation>
+			<translation>Завантажуємо список ігор, будь ласка, зачекайте :3</translation>
 		</message>
 		<message>
 			<location filename="../game_info.cpp" line="26"/>
 			<source>Cancel</source>
-			<translation>Cancel</translation>
+			<translation>Відмінити</translation>
 		</message>
 		<message>
 			<location filename="../game_info.cpp" line="27"/>
 			<source>Loading...</source>
-			<translation>Loading...</translation>
+			<translation>Завантаження...</translation>
 		</message>
 	</context>
 	<context>
@@ -57,12 +57,12 @@
 		<message>
 			<location filename="../install_dir_select.cpp" line="30"/>
 			<source>shadPS4 - Choose directory</source>
-			<translation>shadPS4 - Choose directory</translation>
+			<translation>shadPS4 - Виберіть папку</translation>
 		</message>
 		<message>
 			<location filename="../install_dir_select.cpp" line="37"/>
 			<source>Select which directory you want to install to.</source>
-			<translation>Select which directory you want to install to.</translation>
+			<translation>Виберіть папку, до якої ви хочете встановити.</translation>
 		</message>
 	</context>
 	<context>
@@ -70,27 +70,27 @@
 		<message>
 			<location filename="../game_install_dialog.cpp" line="24"/>
 			<source>shadPS4 - Choose directory</source>
-			<translation>shadPS4 - Choose directory</translation>
+			<translation>shadPS4 - Виберіть папку</translation>
 		</message>
 		<message>
 			<location filename="../game_install_dialog.cpp" line="31"/>
 			<source>Directory to install games</source>
-			<translation>Directory to install games</translation>
+			<translation>Папка для встановлення ігор</translation>
 		</message>
 		<message>
 			<location filename="../game_install_dialog.cpp" line="50"/>
 			<source>Browse</source>
-			<translation>Browse</translation>
+			<translation>Обрати</translation>
 		</message>
 		<message>
 			<location filename="../game_install_dialog.cpp" line="74"/>
 			<source>Error</source>
-			<translation>Error</translation>
+			<translation>Помилка</translation>
 		</message>
 		<message>
 			<location filename="../game_install_dialog.cpp" line="75"/>
 			<source>The value for location to install games is not valid.</source>
-			<translation>The value for location to install games is not valid.</translation>
+			<translation>Не коректне значення розташування для встановлення ігор.</translation>
 		</message>
 	</context>
 	<context>
@@ -98,117 +98,132 @@
 		<message>
 			<location filename="../gui_context_menus.h" line="46"/>
 			<source>Create Shortcut</source>
-			<translation>Create Shortcut</translation>
-		</message>
-		<message>
-			<location filename="../gui_context_menus.h" line="47"/>
-			<source>Open Game Folder</source>
-			<translation>Open Game Folder</translation>
+			<translation>Створити Ярлик</translation>
 		</message>
 		<message>
 			<location filename="../gui_context_menus.h" line="48"/>
 			<source>Cheats / Patches</source>
-			<translation>Juks / Oppdateringer</translation>
+			<translation>Чити та Патчі</translation>
 		</message>
 		<message>
 			<location filename="../gui_context_menus.h" line="49"/>
 			<source>SFO Viewer</source>
-			<translation>SFO Viewer</translation>
+			<translation>Перегляд SFO</translation>
 		</message>
 		<message>
 			<location filename="../gui_context_menus.h" line="50"/>
 			<source>Trophy Viewer</source>
-			<translation>Trophy Viewer</translation>
+			<translation>Перегляд трофеїв</translation>
+		</message>
+		<message>
+			<location filename="../gui_context_menus.h" line="49"/>
+			<source>Open Folder...</source>
+			<translation>Відкрити Папку...</translation>
+		</message>
+		<message>
+			<location filename="../gui_context_menus.h" line="50"/>
+			<source>Open Game Folder</source>
+			<translation>Відкрити папку з грою</translation>
+		</message>
+		<message>
+			<location filename="../gui_context_menus.h" line="51"/>
+			<source>Open Save Data Folder</source>
+			<translation>Відкрити Папку Збережених Даних</translation>
+		</message>
+		<message>
+			<location filename="../gui_context_menus.h" line="52"/>
+			<source>Open Log Folder</source>
+			<translation>Відкрити Папку Логів</translation>
 		</message>
 		<message>
 			<location filename="../gui_context_menus.h" line="59"/>
-			<source>Copy info</source>
-			<translation>Copy info</translation>
+			<source>Copy info...</source>
+			<translation>Копіювати інформацію...</translation>
 		</message>
 		<message>
 			<location filename="../gui_context_menus.h" line="60"/>
 			<source>Copy Name</source>
-			<translation>Copy Name</translation>
+			<translation>Копіювати Ім’я</translation>
 		</message>
 		<message>
 			<location filename="../gui_context_menus.h" line="61"/>
 			<source>Copy Serial</source>
-			<translation>Copy Serial</translation>
+			<translation>Копіювати серійний номер</translation>
 		</message>
 		<message>
 			<location filename="../gui_context_menus.h" line="62"/>
 			<source>Copy All</source>
-			<translation>Copy All</translation>
+			<translation>Копіювати все</translation>
 		</message>
 		<message>
 			<location filename="../gui_context_menus.h" line="72"/>
 			<source>Delete...</source>
-			<translation>Delete...</translation>
+			<translation>Видалення...</translation>
 		</message>
 		<message>
 			<location filename="../gui_context_menus.h" line="73"/>
 			<source>Delete Game</source>
-			<translation>Delete Game</translation>
+			<translation>Видалити гру</translation>
 		</message>
 		<message>
 			<location filename="../gui_context_menus.h" line="74"/>
 			<source>Delete Update</source>
-			<translation>Delete Update</translation>
+			<translation>Видалити оновлення</translation>
 		</message>
 		<message>
 			<location filename="../gui_context_menus.h" line="75"/>
 			<source>Delete DLC</source>
-			<translation>Delete DLC</translation>
+			<translation>Видалити DLC</translation>
 		</message>
 		<message>
 			<location filename="../gui_context_menus.h" line="195"/>
 			<source>Shortcut creation</source>
-			<translation>Shortcut creation</translation>
+			<translation>Створення ярлика</translation>
 		</message>
 		<message>
 			<location filename="../gui_context_menus.h" line="196"/>
 			<source>Shortcut created successfully!\n %1</source>
-			<translation>Shortcut created successfully!\n %1</translation>
+			<translation>Ярлик створений успішно!\n %1</translation>
 		</message>
 		<message>
 			<location filename="../gui_context_menus.h" line="199"/>
 			<source>Error</source>
-			<translation>Error</translation>
+			<translation>Помилка</translation>
 		</message>
 		<message>
 			<location filename="../gui_context_menus.h" line="200"/>
 			<source>Error creating shortcut!\n %1</source>
-			<translation>Error creating shortcut!\n %1</translation>
+			<translation>Помилка при створенні ярлика!\n %1</translation>
 		</message>
 		<message>
 			<location filename="../gui_context_menus.h" line="275"/>
 			<source>Install PKG</source>
-			<translation>Install PKG</translation>
+			<translation>Встановити PKG</translation>
 		</message>
 		<message>
 			<location filename="../gui_context_menus.h" line="299"/>
 			<source>Game</source>
-			<translation>Game</translation>
+			<translation>Ігри</translation>
 		</message>
 		<message>
 			<location filename="../gui_context_menus.h" line="305"/>
 			<source>requiresEnableSeparateUpdateFolder_MSG</source>
-			<translation>This feature requires the 'Enable Separate Update Folder' config option to work. If you want to use this feature, please enable it.</translation>
+			<translation>Ця функція потребує увімкнути опцію 'Окрема папка оновлень'. Якщо ви хочете використовувати цю функцію, будь ласка, увімкніть її.</translation>
 		</message>
 		<message>
 			<location filename="../gui_context_menus.h" line="312"/>
 			<source>This game has no update to delete!</source>
-			<translation>This game has no update to delete!</translation>
+			<translation>Ця гра не має оновлень для видалення!</translation>
 		</message>
 			<message>
 			<location filename="../gui_context_menus.h" line="316"/>
 			<source>Update</source>
-			<translation>Update</translation>
+			<translation>Оновлення</translation>
 		</message>
 		<message>
 			<location filename="../gui_context_menus.h" line="321"/>
 			<source>This game has no DLC to delete!</source>
-			<translation>This game has no DLC to delete!</translation>
+			<translation>Ця гра не має DLC для видалення!</translation>
 		</message>
 		<message>
 			<location filename="../gui_context_menus.h" line="325"/>
@@ -218,12 +233,12 @@
 		<message>
 			<location filename="../gui_context_menus.h" line="332"/>
 			<source>Delete %1</source>
-			<translation>Delete %1</translation>
+			<translation>Видалити %1</translation>
 		</message>
 		<message>
 			<location filename="../gui_context_menus.h" line="333"/>
 			<source>Are you sure you want to delete %1's %2 directory?</source>
-			<translation>Are you sure you want to delete %1's %2 directory?</translation>
+			<translation>Ви впевнені, що хочете видалити папку %1 з папки %2??</translation>
 		</message>
 	</context>
 	<context>
@@ -231,197 +246,197 @@
 		<message>
 			<location filename="../main_window_ui.h" line="310"/>
 			<source>Open/Add Elf Folder</source>
-			<translation>Open/Add Elf Folder</translation>
+			<translation>Відкрити/Додати папку Elf</translation>
 		</message>
 		<message>
 			<location filename="../main_window_ui.h" line="312"/>
 			<source>Install Packages (PKG)</source>
-			<translation>Install Packages (PKG)</translation>
+			<translation>Встановити пакети (PKG)</translation>
 		</message>
 		<message>
 			<location filename="../main_window_ui.h" line="313"/>
 			<source>Boot Game</source>
-			<translation>Boot Game</translation>
+			<translation>Запустити гру</translation>
 		</message>
 		<message>
 			<location filename="../main_window_ui.h" line="308"/>
 			<source>Check for Updates</source>
-			<translation>Sjekk etter oppdateringer</translation>
+			<translation>Перевити наявність оновлень</translation>
 		</message>
 		<message>
 			<location filename="../main_window_ui.h" line="314"/>
 			<source>About shadPS4</source>
-			<translation>About shadPS4</translation>
+			<translation>Про shadPS4</translation>
 		</message>
 		<message>
 			<location filename="../main_window_ui.h" line="315"/>
 			<source>Configure...</source>
-			<translation>Configure...</translation>
+			<translation>Налаштувати...</translation>
 		</message>
 		<message>
 			<location filename="../main_window_ui.h" line="318"/>
 			<source>Install application from a .pkg file</source>
-			<translation>Install application from a .pkg file</translation>
+			<translation>Встановити додаток з файлу .pkg</translation>
 		</message>
 		<message>
 			<location filename="../main_window_ui.h" line="320"/>
 			<source>Recent Games</source>
-			<translation>Recent Games</translation>
+			<translation>Нещодавні ігри</translation>
 		</message>
 		<message>
 			<location filename="../main_window_ui.h" line="321"/>
 			<source>Exit</source>
-			<translation>Exit</translation>
+			<translation>Вихід</translation>
 		</message>
 		<message>
 			<location filename="../main_window_ui.h" line="323"/>
 			<source>Exit shadPS4</source>
-			<translation>Exit shadPS4</translation>
+			<translation>Вийти з shadPS4</translation>
 		</message>
 		<message>
 			<location filename="../main_window_ui.h" line="327"/>
 			<source>Exit the application.</source>
-			<translation>Exit the application.</translation>
+			<translation>Вийти з додатку.</translation>
 		</message>
 		<message>
 			<location filename="../main_window_ui.h" line="330"/>
 			<source>Show Game List</source>
-			<translation>Show Game List</translation>
+			<translation>Показати список ігор</translation>
 		</message>
 		<message>
 			<location filename="../main_window_ui.h" line="332"/>
 			<source>Game List Refresh</source>
-			<translation>Game List Refresh</translation>
+			<translation>Оновити список ігор</translation>
 		</message>
 		<message>
 			<location filename="../main_window_ui.h" line="333"/>
 			<source>Tiny</source>
-			<translation>Tiny</translation>
+			<translation>Крихітний</translation>
 		</message>
 		<message>
 			<location filename="../main_window_ui.h" line="334"/>
 			<source>Small</source>
-			<translation>Small</translation>
+			<translation>Маленький</translation>
 		</message>
 		<message>
 			<location filename="../main_window_ui.h" line="335"/>
 			<source>Medium</source>
-			<translation>Medium</translation>
+			<translation>Середній</translation>
 		</message>
 		<message>
 			<location filename="../main_window_ui.h" line="336"/>
 			<source>Large</source>
-			<translation>Large</translation>
+			<translation>Великий</translation>
 		</message>
 		<message>
 			<location filename="../main_window_ui.h" line="338"/>
 			<source>List View</source>
-			<translation>List View</translation>
+			<translation>Список</translation>
 		</message>
 		<message>
 			<location filename="../main_window_ui.h" line="340"/>
 			<source>Grid View</source>
-			<translation>Grid View</translation>
+			<translation>Сітка</translation>
 		</message>
 		<message>
 			<location filename="../main_window_ui.h" line="341"/>
 			<source>Elf Viewer</source>
-			<translation>Elf Viewer</translation>
+			<translation>Elf</translation>
 		</message>
 		<message>
 			<location filename="../main_window_ui.h" line="343"/>
 			<source>Game Install Directory</source>
-			<translation>Game Install Directory</translation>
+			<translation>Каталог встановлення гри</translation>
 		</message>
 		<message>
 			<location filename="../main_window_ui.h" line="343"/>
 			<source>Download Cheats/Patches</source>
-			<translation>Last ned Juks / Oppdateringer</translation>
+			<translation>Завантажити Чити або Патчі</translation>
 		</message>
 		<message>
 			<location filename="../main_window_ui.h" line="345"/>
 			<source>Dump Game List</source>
-			<translation>Dump Game List</translation>
+			<translation>Дамп списку ігор</translation>
 		</message>
 		<message>
 			<location filename="../main_window_ui.h" line="346"/>
 			<source>PKG Viewer</source>
-			<translation>PKG Viewer</translation>
+			<translation>Перегляд PKG</translation>
 		</message>
 		<message>
 			<location filename="../main_window_ui.h" line="348"/>
 			<source>Search...</source>
-			<translation>Search...</translation>
+			<translation>Пошук...</translation>
 		</message>
 		<message>
 			<location filename="../main_window_ui.h" line="349"/>
 			<source>File</source>
-			<translation>File</translation>
+			<translation>Файл</translation>
 		</message>
 		<message>
 			<location filename="../main_window_ui.h" line="350"/>
 			<source>View</source>
-			<translation>View</translation>
+			<translation>Вид</translation>
 		</message>
 		<message>
 			<location filename="../main_window_ui.h" line="352"/>
 			<source>Game List Icons</source>
-			<translation>Game List Icons</translation>
+			<translation>Розмір значків списку игр</translation>
 		</message>
 		<message>
 			<location filename="../main_window_ui.h" line="354"/>
 			<source>Game List Mode</source>
-			<translation>Game List Mode</translation>
+			<translation>Вид списку ігор</translation>
 		</message>
 		<message>
 			<location filename="../main_window_ui.h" line="355"/>
 			<source>Settings</source>
-			<translation>Settings</translation>
+			<translation>Налаштування</translation>
 		</message>
 		<message>
 			<location filename="../main_window_ui.h" line="356"/>
 			<source>Utils</source>
-			<translation>Utils</translation>
+			<translation>Утиліти</translation>
 		</message>
 		<message>
 			<location filename="../main_window_ui.h" line="357"/>
 			<source>Themes</source>
-			<translation>Themes</translation>
+			<translation>Теми</translation>
 		</message>
 		<message>
 			<location filename="../main_window_ui.h" line="358"/>
 			<source>Help</source>
-			<translation>Hjelp</translation>
+			<translation>Допомога</translation>
 		</message>
 		<message>
 			<location filename="../main_window_ui.h" line="359"/>
 			<source>Dark</source>
-			<translation>Dark</translation>
+			<translation>Темна</translation>
 		</message>
 		<message>
 			<location filename="../main_window_ui.h" line="360"/>
 			<source>Light</source>
-			<translation>Light</translation>
+			<translation>Світла</translation>
 		</message>
 		<message>
 			<location filename="../main_window_ui.h" line="361"/>
 			<source>Green</source>
-			<translation>Green</translation>
+			<translation>Зелена</translation>
 		</message>
 		<message>
 			<location filename="../main_window_ui.h" line="362"/>
 			<source>Blue</source>
-			<translation>Blue</translation>
+			<translation>Синя</translation>
 		</message>
 		<message>
 			<location filename="../main_window_ui.h" line="363"/>
 			<source>Violet</source>
-			<translation>Violet</translation>
+			<translation>Фіолетова</translation>
 		</message>
 		<message>
 			<location filename="../main_window_ui.h" line="364"/>
 			<source>toolBar</source>
-			<translation>toolBar</translation>
+			<translation>Панель інструментів</translation>
 		</message>
 	</context>
 	<context>
@@ -429,7 +444,7 @@
 		<message>
 			<location filename="../pkg_viewer.cpp" line="32"/>
 			<source>Open Folder</source>
-			<translation>Open Folder</translation>
+			<translation>Відкрити папку</translation>
 		</message>
 	</context>
 	<context>
@@ -437,7 +452,7 @@
 		<message>
 			<location filename="../trophy_viewer.cpp" line="8"/>
 			<source>Trophy Viewer</source>
-			<translation>Trophy Viewer</translation>
+			<translation>Трофеї</translation>
 		</message>
 	</context>
 	<context>
@@ -445,227 +460,227 @@
 		<message>
 			<location filename="../settings_dialog.ui" line="29"/>
 			<source>Settings</source>
-			<translation>Settings</translation>
+			<translation>Налаштування</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.ui" line="67"/>
 			<source>General</source>
-			<translation>General</translation>
+			<translation>Загальні</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.ui" line="77"/>
 			<source>System</source>
-			<translation>System</translation>
+			<translation>Система</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.ui" line="83"/>
 			<source>Console Language</source>
-			<translation>Console Language</translation>
+			<translation>Мова консолі</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.ui" line="95"/>
 			<source>Emulator Language</source>
-			<translation>Emulator Language</translation>
+			<translation>Мова емулятора</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.ui" line="114"/>
 			<source>Emulator</source>
-			<translation>Emulator</translation>
+			<translation>Емулятор</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.ui" line="122"/>
 			<source>Enable Fullscreen</source>
-			<translation>Enable Fullscreen</translation>
+			<translation>Увімкнути повноекранний режим</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.ui" line="140"/>
 			<source>Enable Separate Update Folder</source>
-			<translation>Enable Separate Update Folder</translation>
+			<translation>Увімкнути окрему папку оновлень</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.ui" line="129"/>
 			<source>Show Splash</source>
-			<translation>Show Splash</translation>
+			<translation>Показувати заставку</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.ui" line="136"/>
 			<source>Is PS4 Pro</source>
-			<translation>Is PS4 Pro</translation>
+			<translation>Режим PS4 Pro</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.ui" line="154"/>
 			<source>Enable Discord Rich Presence</source>
-			<translation>Aktiver Discord Rich Presence</translation>
+			<translation>Увімкнути Discord Rich Presence</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.ui" line="155"/>
 			<source>Username</source>
-			<translation>Username</translation>
+			<translation>Ім'я користувача</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.ui" line="178"/>
 			<source>Logger</source>
-			<translation>Logger</translation>
+			<translation>Логування</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.ui" line="199"/>
 			<source>Log Type</source>
-			<translation>Log Type</translation>
+			<translation>Тип логів</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.ui" line="235"/>
 			<source>Log Filter</source>
-			<translation>Log Filter</translation>
+			<translation>Фільтр логів</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.ui" line="595"/>
 			<source>Input</source>
-			<translation>Inndata</translation>
+			<translation>Введення</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.ui" line="611"/>
 			<source>Cursor</source>
-			<translation>Markør</translation>
+			<translation>Курсор миші</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.ui" line="635"/>
 			<source>Hide Cursor</source>
-			<translation>Skjul markør</translation>
+			<translation>Приховати курсор</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.ui" line="668"/>
 			<source>Hide Cursor Idle Timeout</source>
-			<translation>Timeout for å skjule markør ved inaktivitet</translation>
+			<translation>Тайм-аут приховування курсора при бездіяльності</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.ui" line="767"/>
 			<source>Controller</source>
-			<translation>Kontroller</translation>
+			<translation>Контролер</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.ui" line="797"/>
 			<source>Back Button Behavior</source>
-			<translation>Tilbakeknapp atferd</translation>
+			<translation>Поведінка кнопки назад</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.ui" line="272"/>
 			<source>Graphics</source>
-			<translation>Graphics</translation>
+			<translation>Графіка</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.ui" line="282"/>
 			<source>Graphics Device</source>
-			<translation>Graphics Device</translation>
+			<translation>Графічний пристрій</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.ui" line="326"/>
 			<source>Width</source>
-			<translation>Width</translation>
+			<translation>Ширина</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.ui" line="357"/>
 			<source>Height</source>
-			<translation>Height</translation>
+			<translation>Висота</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.ui" line="405"/>
 			<source>Vblank Divider</source>
-			<translation>Vblank Divider</translation>
+			<translation>Розділювач Vblank</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.ui" line="453"/>
 			<source>Advanced</source>
-			<translation>Advanced</translation>
+			<translation>Розширені</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.ui" line="462"/>
 			<source>Enable Shaders Dumping</source>
-			<translation>Enable Shaders Dumping</translation>
+			<translation>Увімкнути дамп шейдерів</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.ui" line="469"/>
 			<source>Enable NULL GPU</source>
-			<translation>Enable NULL GPU</translation>
+			<translation>Увімкнути NULL GPU</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.ui" line="1111"/>
 			<source>Paths</source>
-			<translation>Stier</translation>
+			<translation>Шляхи</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.ui" line="1119"/>
 			<source>Game Folders</source>
-			<translation>Spillmapper</translation>
+			<translation>Ігрові папки</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.ui" line="1141"/>
 			<source>Add...</source>
-			<translation>Legg til...</translation>
+			<translation>Додати...</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.ui" line="1141"/>
 			<source>Remove</source>
-			<translation>Fjern</translation>
+			<translation>Видалити</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.ui" line="517"/>
 			<source>Debug</source>
-			<translation>Debug</translation>
+			<translation>Налагодження</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.ui" line="537"/>
 			<source>Enable Debug Dumping</source>
-			<translation>Enable Debug Dumping</translation>
+			<translation>Увімкнути налагоджувальні дампи</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.ui" line="560"/>
 			<source>Enable Vulkan Validation Layers</source>
-			<translation>Enable Vulkan Validation Layers</translation>
+			<translation>Увімкнути шари валідації Vulkan</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.ui" line="567"/>
 			<source>Enable Vulkan Synchronization Validation</source>
-			<translation>Enable Vulkan Synchronization Validation</translation>
+			<translation>Увімкнути валідацію синхронізації Vulkan</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.ui" line="574"/>
 			<source>Enable RenderDoc Debugging</source>
-			<translation>Enable RenderDoc Debugging</translation>
+			<translation>Увімкнути налагодження RenderDoc</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.ui" line="274"/>
 			<source>Update</source>
-			<translation>Oppdatering</translation>
+			<translation>Оновлення</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.ui" line="286"/>
 			<source>Check for Updates at Startup</source>
-			<translation>Sjekk etter oppdateringer ved oppstart</translation>
+			<translation>Перевірка оновлень під час запуску</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.ui" line="313"/>
 			<source>Update Channel</source>
-			<translation>Oppdateringskanal</translation>
+			<translation>Канал оновлення</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.ui" line="322"/>
 			<source>Check for Updates</source>
-			<translation>Sjekk for oppdateringer</translation>
+			<translation>Перевірити оновлення</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.ui" line="354"/>
 			<source>GUI Settings</source>
-			<translation>GUI-Innstillinger</translation>
+			<translation>Інтерфейс</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.ui" line="375"/>
 			<source>Play title music</source>
-			<translation>Spill tittelmusikk</translation>
+			<translation>Програвати заголовну музику</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.ui" line="394"/>
 			<source>Volume</source>
-			<translation>Volum</translation>
+			<translation>Гучність</translation>
 		</message>
 	</context>
 	<context>
@@ -673,152 +688,152 @@
 		<message>
 			<location filename="../main_window.cpp" line="106"/>
 			<source>Game List</source>
-			<translation>Spilliste</translation>
+			<translation>Список ігор</translation>
 		</message>
 		<message>
 			<location filename="../main_window.cpp" line="168"/>
 			<source> * Unsupported Vulkan Version</source>
-			<translation> * Ikke støttet Vulkan-versjon</translation>
+			<translation> * Непідтримувана версія Vulkan</translation>
 		</message>
 		<message>
 			<location filename="../main_window.cpp" line="326"/>
 			<source>Download Cheats For All Installed Games</source>
-			<translation>Last ned jukser for alle installerte spill</translation>
+			<translation>Завантажити чити для всіх встановлених ігор</translation>
 		</message>
 		<message>
 			<location filename="../main_window.cpp" line="328"/>
 			<source>Download Patches For All Games</source>
-			<translation>Last ned oppdateringer for alle spill</translation>
+			<translation>Завантажити патчі для всіх ігор</translation>
 		</message>
 		<message>
 			<location filename="../main_window.cpp" line="363"/>
 			<source>Download Complete</source>
-			<translation>Nedlasting fullført</translation>
+			<translation>Завантаження завершено</translation>
 		</message>
 		<message>
 			<location filename="../main_window.cpp" line="364"/>
 			<source>You have downloaded cheats for all the games you have installed.</source>
-			<translation>Du har lastet ned jukser for alle spillene du har installert.</translation>
+			<translation>Ви завантажили чити для всіх встановлених ігор.</translation>
 		</message>
 		<message>
 			<location filename="../main_window.cpp" line="391"/>
 			<source>Patches Downloaded Successfully!</source>
-			<translation>Oppdateringer lastet ned vellykket!</translation>
+			<translation>Патчі успішно завантажено!</translation>
 		</message>
 		<message>
 			<location filename="../main_window.cpp" line="392"/>
 			<source>All Patches available for all games have been downloaded.</source>
-			<translation>Alle oppdateringer tilgjengelige for alle spillene har blitt lastet ned.</translation>
+			<translation>Завантажено всі доступні патчі для всіх ігор.</translation>
 		</message>
 		<message>
 			<location filename="../main_window.cpp" line="549"/>
 			<source>Games: </source>
-			<translation>Spill: </translation>
+			<translation>Ігри: </translation>
 		</message>
 		<message>
 			<location filename="../main_window.cpp" line="575"/>
 			<source>PKG File (*.PKG)</source>
-			<translation>PKG-fil (*.PKG)</translation>
+			<translation>Файл PKG (*.PKG)</translation>
 		</message>
 		<message>
 			<location filename="../main_window.cpp" line="594"/>
 			<source>ELF files (*.bin *.elf *.oelf)</source>
-			<translation>ELF-filer (*.bin *.elf *.oelf)</translation>
+			<translation>Файл ELF (*.bin *.elf *.oelf)</translation>
 		</message>
 		<message>
 			<location filename="../main_window.cpp" line="600"/>
 			<source>Game Boot</source>
-			<translation>Spilloppstart</translation>
+			<translation>Запуск гри</translation>
 		</message>
 		<message>
 			<location filename="../main_window.cpp" line="600"/>
 			<source>Only one file can be selected!</source>
-			<translation>Kun én fil kan velges!</translation>
+			<translation>Можна вибрати лише один файл!</translation>
 		</message>
 		<message>
 			<location filename="../main_window.cpp" line="623"/>
 			<source>PKG Extraction</source>
-			<translation>PKG-ekstraksjon</translation>
+			<translation>Видобуток PKG</translation>
 		</message>
 		<message>
 			<location filename="../main_window.cpp" line="646"/>
 			<source>Patch detected!</source>
-			<translation>Oppdatering oppdaget!</translation>
+			<translation>Виявлено патч!</translation>
 		</message>
 		<message>
 			<location filename="../main_window.cpp" line="646"/>
 			<source>PKG and Game versions match: </source>
-			<translation>PKG- og spillversjoner stemmer overens: </translation>
+			<translation>Версії PKG та гри збігаються: </translation>
 		</message>
 		<message>
 			<location filename="../main_window.cpp" line="647"/>
 			<source>Would you like to overwrite?</source>
-			<translation>Ønsker du å overskrive?</translation>
+			<translation>Бажаєте перезаписати?</translation>
 		</message>
 		<message>
 			<location filename="../main_window.cpp" line="639"/>
 			<source>PKG Version %1 is older than installed version: </source>
-			<translation>PKG-versjon %1 er eldre enn installert versjon: </translation>
+			<translation>Версія PKG %1 старіша за встановлену версію: </translation>
 		</message>
 		<message>
 			<location filename="../main_window.cpp" line="660"/>
 			<source>Game is installed: </source>
-			<translation>Spillet er installert: </translation>
+			<translation>Гра встановлена: </translation>
 		</message>
 		<message>
 			<location filename="../main_window.cpp" line="660"/>
 			<source>Would you like to install Patch: </source>
-			<translation>Ønsker du å installere oppdateringen: </translation>
+			<translation>Бажаєте встановити патч: </translation>
 		</message>
 		<message>
 			<location filename="../main_window.cpp" line="673"/>
 			<source>DLC Installation</source>
-			<translation>DLC-installasjon</translation>
+			<translation>Встановлення DLC</translation>
 		</message>
 		<message>
 			<location filename="../main_window.cpp" line="674"/>
 			<source>Would you like to install DLC: %1?</source>
-			<translation>Ønsker du å installere DLC: %1?</translation>
+			<translation>Ви бажаєте встановити DLC: %1??</translation>
 		</message>
 		<message>
 			<location filename="../main_window.cpp" line="688"/>
 			<source>DLC already installed:</source>
-			<translation>DLC allerede installert:</translation>
+			<translation>DLC вже встановлено:</translation>
 		</message>
 		<message>
 			<location filename="../main_window.cpp" line="701"/>
 			<source>Game already installed</source>
-			<translation>Spillet er allerede installert</translation>
+			<translation>Гра вже встановлена</translation>
 		</message>
 		<message>
 			<location filename="../main_window.cpp" line="674"/>
 			<source>PKG is a patch, please install the game first!</source>
-			<translation>PKG er en oppdatering, vennligst installer spillet først!</translation>
+			<translation>PKG - це патч, будь ласка, спочатку встановіть гру!</translation>
 		</message>
 		<message>
 			<location filename="../main_window.cpp" line="681"/>
 			<source>PKG ERROR</source>
-			<translation>PKG FEIL</translation>
+			<translation>ПОМИЛКА PKG</translation>
 		</message>
 		<message>
 			<location filename="../main_window.cpp" line="693"/>
 			<source>Extracting PKG %1/%2</source>
-			<translation>Ekstraherer PKG %1/%2</translation>
+			<translation>Вилучення PKG %1/%2</translation>
 		</message>
 		<message>
 			<location filename="../main_window.cpp" line="703"/>
 			<source>Extraction Finished</source>
-			<translation>Ekstrahering fullført</translation>
+			<translation>Вилучення завершено</translation>
 		</message>
 		<message>
 			<location filename="../main_window.cpp" line="704"/>
 			<source>Game successfully installed at %1</source>
-			<translation>Spillet ble installert vellykket på %1</translation>
+			<translation>Гру успішно встановлено у %1</translation>
 		</message>
 		<message>
 			<location filename="../main_window.cpp" line="725"/>
 			<source>File doesn't appear to be a valid PKG file</source>
-			<translation>Fil ser ikke ut til å være en gyldig PKG-fil</translation>
+			<translation>Файл не є дійсним PKG-файлом</translation>
 		</message>
 	</context>
 	<context>
@@ -826,277 +841,277 @@
 		<message>
 			<location filename="../cheats_patches.cpp" line="44"/>
 			<source>Cheats / Patches</source>
-			<translation>Jukser / Oppdateringer</translation>
+			<translation>Чити та Патчі</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="50"/>
 			<source>defaultTextEdit_MSG</source>
-			<translation>Cheats/Patches er eksperimentelle.\nBruk med forsiktighet.\n\nLast ned cheats individuelt ved å velge depotet og klikke på nedlastingsknappen.\nPå fanen Patches kan du laste ned alle patches samtidig, velge hvilke du ønsker å bruke, og lagre valget ditt.\n\nSiden vi ikke utvikler Cheats/Patches,\nvær vennlig å rapportere problemer til cheat-utvikleren.\n\nHar du laget en ny cheat? Besøk:\nhttps://github.com/shadps4-emu/ps4_cheats</translation>
+			<translation>Чити та Патчі є експериментальними.\nВикористовуйте з обережністю.\n\nЗавантажуйте чити окремо, вибравши репозиторій і натиснувши кнопку завантаження.\nУ вкладці "Патчі" ви можете завантажити всі патчі відразу, вибрати, які з них ви хочете використовувати, і зберегти свій вибір.\n\nОскільки ми не займаємося розробкою читів/патчів,\nбудь ласка, повідомляйте про проблеми автору чита/патча.\n\nСтворили новий чит? Відвідайте:\nhttps://github.com/shadps4-emu/ps4_cheats</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="69"/>
 			<source>No Image Available</source>
-			<translation>Ingen bilde tilgjengelig</translation>
+			<translation>Зображення відсутнє</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="79"/>
 			<source>Serial: </source>
-			<translation>Serienummer: </translation>
+			<translation>Серійний номер: </translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="83"/>
 			<source>Version: </source>
-			<translation>Versjon: </translation>
+			<translation>Версія: </translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="87"/>
 			<source>Size: </source>
-			<translation>Størrelse: </translation>
+			<translation>Розмір: </translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="126"/>
 			<source>Select Cheat File:</source>
-			<translation>Velg juksfil:</translation>
+			<translation>Виберіть файл читу:</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="133"/>
 			<source>Repository:</source>
-			<translation>Depot:</translation>
+			<translation>Репозиторій:</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="149"/>
 			<source>Download Cheats</source>
-			<translation>Last ned jukser</translation>
+			<translation>Завантажити чити</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="155"/>
 			<source>Delete File</source>
-			<translation>Slett fil</translation>
+			<translation>Видалити файл</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="169"/>
 			<source>No files selected.</source>
-			<translation>Ingen filer valgt.</translation>
+			<translation>Файли не вибрані.</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="170"/>
 			<source>You can delete the cheats you don't want after downloading them.</source>
-			<translation>Du kan slette jukser du ikke ønsker etter å ha lastet dem ned.</translation>
+			<translation>Ви можете видалити непотрібні чити після їх завантаження.</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="178"/>
 			<source>Do you want to delete the selected file?\n%1</source>
-			<translation>Ønsker du å slette den valgte filen?\n%1</translation>
+			<translation>Ви хочете видалити вибраний файл?\n%1</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="213"/>
 			<source>Select Patch File:</source>
-			<translation>Velg oppdateringsfil:</translation>
+			<translation>Виберіть файл патчу:</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="241"/>
 			<source>Download Patches</source>
-			<translation>Last ned oppdateringer</translation>
+			<translation>Завантажити патчі</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="248"/>
 			<source>Save</source>
-			<translation>Lagre</translation>
+			<translation>Зберегти</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="256"/>
 			<source>Cheats</source>
-			<translation>Jukser</translation>
+			<translation>Чити</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="257"/>
 			<source>Patches</source>
-			<translation>Oppdateringer</translation>
+			<translation>Патчі</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="278"/>
 			<source>Error</source>
-			<translation>Feil</translation>
+			<translation>Помилка</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="278"/>
 			<source>No patch selected.</source>
-			<translation>Ingen oppdatering valgt.</translation>
+			<translation>Патч не вибрано.</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="292"/>
 			<source>Unable to open files.json for reading.</source>
-			<translation>Kan ikke åpne files.json for lesing.</translation>
+			<translation>Не вдалось відкрити files.json для читання.</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="316"/>
 			<source>No patch file found for the current serial.</source>
-			<translation>Ingen oppdateringsfil funnet for det aktuelle serienummeret.</translation>
+			<translation>Файл патча для поточного серійного номера не знайдено.</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="323"/>
 			<source>Unable to open the file for reading.</source>
-			<translation>Kan ikke åpne filen for lesing.</translation>
+			<translation>Не вдалося відкрити файл для читання.</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="422"/>
 			<source>Unable to open the file for writing.</source>
-			<translation>Kan ikke åpne filen for skriving.</translation>
+			<translation>Не вдалось відкрити файл для запису.</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="432"/>
 			<source>Failed to parse XML: </source>
-			<translation>Feil ved parsing av XML: </translation>
+			<translation>Не вдалося розібрати XML: </translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="434"/>
 			<source>Success</source>
-			<translation>Vellykket</translation>
+			<translation>Успіх</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="434"/>
 			<source>Options saved successfully.</source>
-			<translation>Alternativer lagret vellykket.</translation>
+			<translation>Параметри успішно збережено.</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="470"/>
 			<source>Invalid Source</source>
-			<translation>Ugyldig kilde</translation>
+			<translation>Неправильне джерело</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="471"/>
 			<source>The selected source is invalid.</source>
-			<translation>Den valgte kilden er ugyldig.</translation>
+			<translation>Вибране джерело є недійсним.</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="519"/>
 			<source>File Exists</source>
-			<translation>Fil eksisterer</translation>
+			<translation>Файл існує</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="520"/>
 			<source>File already exists. Do you want to replace it?</source>
-			<translation>Fil eksisterer allerede. Ønsker du å erstatte den?</translation>
+			<translation>Файл вже існує. Ви хочете замінити його?</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="539"/>
 			<source>Failed to save file:</source>
-			<translation>Kunne ikke lagre fil:</translation>
+			<translation>Не вдалося зберегти файл:</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="545"/>
 			<source>Failed to download file:</source>
-			<translation>Kunne ikke laste ned fil:</translation>
+			<translation>Не вдалося завантажити файл:</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="556"/>
 			<source>Cheats Not Found</source>
-			<translation>Jukser ikke funnet</translation>
+			<translation>Читів не знайдено</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="556"/>
 			<source>CheatsNotFound_MSG</source>
-			<translation>Ingen jukser funnet for dette spillet i denne versjonen av det valgte depotet,prøv et annet depot eller en annen versjon av spillet.</translation>
+			<translation>У вибраному репозиторії не знайдено Читів для цієї гри, спробуйте інший репозиторій або іншу версію гри.</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="593"/>
 			<source>Cheats Downloaded Successfully</source>
-			<translation>Jukser lastet ned vellykket</translation>
+			<translation>Чити успішно завантажено</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="594"/>
 			<source>CheatsDownloadedSuccessfully_MSG</source>
-			<translation>Du har lastet ned jukser vellykket for denne versjonen av spillet fra det valgte depotet. Du kan prøve å laste ned fra et annet depot, hvis det er tilgjengelig, vil det også være mulig å bruke det ved å velge filen fra listen.</translation>
+			<translation>Ви успішно завантажили чити для цієї версії гри з обраного репозиторія. Ви можете спробувати завантажити з іншого репозиторія, якщо він буде доступним, ви також зможете скористатися ним, вибравши файл зі списку.</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="747"/>
 			<source>Failed to save:</source>
-			<translation>Kunne ikke lagre:</translation>
+			<translation>Не вдалося зберегти:</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="754"/>
 			<source>Failed to download:</source>
-			<translation>Kunne ikke laste ned:</translation>
+			<translation>Не вдалося завантажити:</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="762"/>
 			<source>Download Complete</source>
-			<translation>Nedlasting fullført</translation>
+			<translation>Заватнаження завершено</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="763"/>
 			<source>DownloadComplete_MSG</source>
-			<translation>Oppdateringer lastet ned vellykket! Alle oppdateringer tilgjengelige for alle spill har blitt lastet ned, det er ikke nødvendig å laste dem ned individuelt for hvert spill som skjer med jukser. Hvis oppdateringen ikke vises, kan det hende at den ikke finnes for den spesifikke serienummeret og versjonen av spillet.</translation>
+			<translation>Патчі успішно завантажено! Всі доступні патчі для усіх ігор, завантажено, немає необхідності завантажувати їх окремо для кожної гри, як це відбувається у випадку з читами. Якщо патч не з’являється, можливо, його не існує для конкретного серійного номера та версії гри. Можливо, необхідно оновити гру.</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="773"/>
 			<source>Failed to parse JSON data from HTML.</source>
-			<translation>Kunne ikke analysere JSON-data fra HTML.</translation>
+			<translation>Не вдалося розібрати JSON-дані з HTML.</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="778"/>
 			<source>Failed to retrieve HTML page.</source>
-			<translation>Kunne ikke hente HTML-side.</translation>
+			<translation>Не вдалося отримати HTML-сторінку.</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="850"/>
 			<source>The game is in version: %1</source>
-			<translation>Spillet er i versjon: %1</translation>
+			<translation>Гра у версії: %1</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="851"/>
 			<source>The downloaded patch only works on version: %1</source>
-			<translation>Den nedlastede patchen fungerer bare på versjon: %1</translation>
+			<translation>Завантажений патч працює лише на версії: %1</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="856"/>
 			<source>You may need to update your game.</source>
-			<translation>Du må kanskje oppdatere spillet ditt.</translation>
+			<translation>Можливо, вам потрібно оновити гру.</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="860"/>
 			<source>Incompatibility Notice</source>
-			<translation>Inkompatibilitetsvarsel</translation>
+			<translation>Повідомлення про несумісність</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="801"/>
 			<source>Failed to open file:</source>
-			<translation>Kunne ikke åpne fil:</translation>
+			<translation>Не вдалося відкрити файл:</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="819"/>
 			<source>XML ERROR:</source>
-			<translation>XML FEIL:</translation>
+			<translation>ПОМИЛКА XML:</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="826"/>
 			<source>Failed to open files.json for writing</source>
-			<translation>Kunne ikke åpne files.json for skriving</translation>
+			<translation>Не вдалося відкрити files.json для запису</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="925"/>
 			<source>Author: </source>
-			<translation>Forfatter: </translation>
+			<translation>Автор: </translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="997"/>
 			<source>Directory does not exist:</source>
-			<translation>Direktory eksisterer ikke:</translation>
+			<translation>Каталогу не існує:</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="1006"/>
 			<source>Failed to open files.json for reading.</source>
-			<translation>Kunne ikke åpne files.json for lesing.</translation>
+			<translation>Не вдалося відкрити files.json для читання.</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="1006"/>
 			<source>Name:</source>
-			<translation>Navn:</translation>
+			<translation>Ім'я:</translation>
 		</message>
 		<message>
 			<location filename="../cheats_patches.cpp" line="1163"/>
 			<source>Can't apply cheats before the game is started</source>
-			<translation>Kan ikke bruke juksetriks før spillet er startet.</translation>
+			<translation>Неможливо застосовувати чити до початку гри.</translation>
 		</message>
 	</context>
 	<context>
@@ -1104,197 +1119,197 @@
 		<message>
 			<location filename="../settings_dialog.cpp" line="83"/>
 			<source>Save</source>
-			<translation>Lag</translation>
+			<translation>Зберегти</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.cpp" line="84"/>
 			<source>Apply</source>
-			<translation>Bruk</translation>
+			<translation>Застосувати</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.cpp" line="85"/>
 			<source>Restore Defaults</source>
-			<translation>Gjenopprett standardinnstillinger</translation>
+			<translation>За замовчуванням</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.cpp" line="86"/>
 			<source>Close</source>
-			<translation>Lukk</translation>
+			<translation>Закрити</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.cpp" line="72"/>
 			<source>Point your mouse at an option to display its description.</source>
-			<translation>Hold musen over et valg for at vise beskrivelsen.</translation>
+			<translation>Наведіть курсор миші на опцію, щоб відобразити її опис.</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.cpp" line="289"/>
 			<source>consoleLanguageGroupBox</source>
-			<translation>Konsollspråk:\nAngir språket som PS4-spillet bruker.\nDet anbefales å sette dette til et språk som spillet støtter, noe som kan variere avhengig av region.</translation>
+			<translation>Мова консолі:\nВстановіть мову, яка буде використовуватись у іграх PS4.\nРекомендується встановити мову котра підтримується грою, оскільки вона може відрізнятися в залежності від регіону.</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.cpp" line="291"/>
 			<source>emulatorLanguageGroupBox</source>
-			<translation>Emulatorspråk:\nAngir språket for emulatorens brukergrensesnitt.</translation>
+			<translation>Мова емулятора:\nВстановіть мову користувацького інтерфейсу емулятора.</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.cpp" line="293"/>
 			<source>fullscreenCheckBox</source>
-			<translation>Aktiver fullskjerm:\nSetter automatisk spillvinduet i fullskjermmodus.\nDette kan slås av ved å trykke på F11-tasten.</translation>
+			<translation>Повноекранний режим:\nАвтоматично переводить вікно гри у повноекранний режим.\nВи можете відключити це, натиснувши клавішу F11.</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.cpp" line="293"/>
 			<source>separateUpdatesCheckBox</source>
-			<translation>Enable Separate Update Folder:\nEnables installing game updates into a separate folder for easy management.</translation>
+			<translation>Окрема папка для оновлень:\nДає змогу встановлювати оновлення гри в окрему папку для зручності.</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.cpp" line="295"/>
 			<source>showSplashCheckBox</source>
-			<translation>Vis startskjerm:\nViser spillets startskjerm (et spesialbilde) når spillet starter.</translation>
+			<translation>Показувати заставку:\nВідображає заставку гри (спеціальне зображення) під час запуску гри.</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.cpp" line="297"/>
 			<source>ps4proCheckBox</source>
-			<translation>Er PS4 Pro:\nFår emulatoren til å fungere som en PS4 PRO, noe som kan aktivere spesielle funksjoner i spill som støtter det.</translation>
+			<translation>Режим PS4 Pro:\nЗмушує емулятор працювати як PS4 Pro, що може ввімкнути спеціальні функції в іграх, які підтримують це.</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.cpp" line="438"/>
 			<source>discordRPCCheckbox</source>
-			<translation>Aktiver Discord Rich Presence:\nViser emulatorikonet og relevant informasjon på Discord-profilen din.</translation>
+			<translation>Увімкнути Discord Rich Presence:\nВідображає значок емулятора та відповідну інформацію у вашому профілі Discord.</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.cpp" line="299"/>
 			<source>userName</source>
-			<translation>Brukernavn:\nAngir brukernavnet for PS4-kontoen, som kan vises av enkelte spill.</translation>
+			<translation>Ім'я користувача:\nВстановіть ім'я користувача акаунта PS4. Це може відображатися в деяких іграх.</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.cpp" line="301"/>
 			<source>logTypeGroupBox</source>
-			<translation>Logtype:\nAngir om loggvinduets utdata skal synkroniseres for ytelse. Kan ha negative effekter på emulering.</translation>
+			<translation>Тип логів:\nВстановіть, чи синхронізувати виведення вікна логів заради продуктивності. Це може негативно вплинути на емуляцію.</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.cpp" line="303"/>
 			<source>logFilter</source>
-			<translation>Loggfilter:\nFiltrerer loggen for å kun skrive ut spesifikk informasjon.\nEksempler: "Core:Trace" "Lib.Pad:Debug Common.Filesystem:Error" "*:Critical" Nivåer: Trace, Debug, Info, Warning, Error, Critical - i denne rekkefølgen, et spesifikt nivå demper alle tidligere nivåer i listen og logger alle nivåer etter det.</translation>
+			<translation>Фільтр логів:\nФільтрує логи, щоб показувати тільки певну інформацію.\nПриклади: "Core:Trace" "Lib.Pad:Debug Common.Filesystem:Error" "*:Critical" Рівні: Trace, Debug, Info, Warning, Error, Critical - у цьому порядку, конкретний рівень глушить усі попередні рівні у списку і показує всі наступні рівні.</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.cpp" line="305"/>
 			<source>updaterGroupBox</source>
-			<translation>Oppdatering:\nRelease: Offisielle versjoner utgitt hver måned som kan være veldig utdaterte, men er mer pålitelige og testet.\nNightly: Utviklingsversjoner som har alle de nyeste funksjonene og feilrettingene, men som kan inneholde feil og er mindre stabile.</translation>
+			<translation>Оновлення:\nRelease: Офіційні версії, які випускаються щомісяця і можуть бути дуже старими, але вони більш надійні та перевірені.\nNightly: Версії для розробників, які мають усі найновіші функції та виправлення, але можуть містити помилки та є менш стабільними.</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.cpp" line="306"/>
 			<source>GUIgroupBox</source>
-			<translation>Spille tittelmusikk:\nHvis et spill støtter det, aktiverer det å spille spesiell musikk når du velger spillet i GUI.</translation>
+			<translation>Грати заголовну музику:\nВмикає відтворення спеціальної музики під час вибору гри в списку, якщо вона це підтримує.</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.cpp" line="450"/>
 			<source>hideCursorGroupBox</source>
-			<translation>Skjul musepeker:\nVelg når musepekeren skal forsvinne:\nAldri: Du vil alltid se musen.\nInaktiv: Sett en tid for at den skal forsvinne etter å ha vært inaktiv.\nAlltid: du vil aldri se musen.</translation>
+			<translation>Приховувати курсор:\nВиберіть, коли курсор зникне:\nНіколи: Ви завжди будете бачити мишу.\nПри бездіяльності: Встановіть час, через який курсор зникне в разі бездіяльності.\nЗавжди: Ви ніколи не будете бачити мишу.</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.cpp" line="452"/>
 			<source>idleTimeoutGroupBox</source>
-			<translation>Sett en tid for når musen forsvinner etter å ha vært inaktiv.</translation>
+			<translation>Встановіть час, через який курсор зникне в разі бездіяльності.</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.cpp" line="454"/>
 			<source>backButtonBehaviorGroupBox</source>
-			<translation>Atferd for tilbaketasten:\nSetter tilbaketasten på kontrolleren til å imitere et trykk på den angitte posisjonen på PS4s berøringsplate.</translation>
+			<translation>Поведінка кнопки «Назад»:\nНалаштовує кнопку «Назад» контролера на емуляцію натискання на зазначену область на сенсорній панелі контролера PS4.</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.cpp" line="70"/>
 			<source>Never</source>
-			<translation>Aldri</translation>
+			<translation>Ніколи</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.cpp" line="71"/>
 			<source>Idle</source>
-			<translation>Inaktiv</translation>
+			<translation>При бездіяльності</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.cpp" line="72"/>
 			<source>Always</source>
-			<translation>Alltid</translation>
+			<translation>Завжди</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.cpp" line="101"/>
 			<source>Touchpad Left</source>
-			<translation>Berøringsplate Venstre</translation>
+			<translation>Тачпад ліворуч</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.cpp" line="102"/>
 			<source>Touchpad Right</source>
-			<translation>Berøringsplate Høyre</translation>
+			<translation>Тачпад праворуч</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.cpp" line="103"/>
 			<source>Touchpad Center</source>
-			<translation>Berøringsplate Midt</translation>
+			<translation>Тачпад по центру </translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.cpp" line="104"/>
 			<source>None</source>
-			<translation>Ingen</translation>
+			<translation>Ні</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.cpp" line="312"/>
 			<source>graphicsAdapterGroupBox</source>
-			<translation>Grafikkdevice:\nI systemer med flere GPU-er, velg GPU-en emulatoren skal bruke fra rullegardinlisten,\neller velg "Auto Select" for å bestemme det automatisk.</translation>
+			<translation>Графічний пристрій:\nУ системах із кількома GPU виберіть з випадаючого списку GPU, який буде використовувати емулятор,\nабо виберіть "Auto Select", щоб визначити його автоматично.</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.cpp" line="314"/>
 			<source>resolutionLayout</source>
-			<translation>Bredde/Høyde:\nAngir størrelsen på emulatorkvinduet ved oppstart, som kan endres under spillingen.\nDette er forskjellig fra oppløsningen i spillet.</translation>
+			<translation>Ширина/Висота:\nВстановіть розмір вікна емулятора під час запуску, який може бути змінений під час гри.\nЦе відрізняється від роздільної здатності в грі.</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.cpp" line="318"/>
 			<source>heightDivider</source>
-			<translation>Vblank divider:\nBilderaten som emulatoren oppdaterer ved, multipliseres med dette tallet. Endring av dette kan ha negative effekter, som å øke hastigheten på spillet, eller ødelegge kritisk spillfunksjonalitet som ikke forventer at dette endres!</translation>
+			<translation>Розділювач Vblank:\nЧастота кадрів, з якою оновлюється емулятор, множиться на це число. Зміна цього параметра може мати негативні наслідки, такі як збільшення швидкості гри або порушення критичних функцій гри, які цього не очікують!</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.cpp" line="320"/>
 			<source>dumpShadersCheckBox</source>
-			<translation>Aktiver shaderdumping:\nFor teknisk feilsøking lagrer shaderne fra spillet i en mappe mens de gjengis.</translation>
+			<translation>Увімкнути дамп шейдерів:\nДля технічного налагодження зберігає шейдери ігор у папку під час рендерингу.</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.cpp" line="322"/>
 			<source>nullGpuCheckBox</source>
-			<translation>Aktiver Null GPU:\nFor teknisk feilsøking deaktiverer spillrendering som om det ikke var noe grafikkort.</translation>
+			<translation>Увімкнути NULL GPU:\nДля технічного налагодження відключає рендеринг гри так, ніби графічної карти немає.</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.cpp" line="465"/>
 			<source>gameFoldersBox</source>
-			<translation>Spillmapper:\nListen over mapper for å sjekke installerte spill.</translation>
+			<translation>Ігрові папки:\nСписок папок для перевірки встановлених ігор.</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.cpp" line="465"/>
 			<source>addFolderButton</source>
-			<translation>Legg til:\nLegg til en mappe til listen.</translation>
+			<translation>Додати:\nДодати папку в список.</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.cpp" line="465"/>
 			<source>removeFolderButton</source>
-			<translation>Fjern:\nFjern en mappe fra listen.</translation>
+			<translation>Видалити:\nВидалити папку зі списку.</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.cpp" line="329"/>
 			<source>debugDump</source>
-			<translation>Aktiver feilsøking dumping:\nLagrer import- og eksport-symbolene og filoverskriftsinformasjonen til det nåværende kjørende PS4-programmet i en katalog.</translation>
+			<translation>Увімкнути налагоджувальні дампи:\nЗберігає символи імпорту, експорту та інформацію про заголовок файлу поточної виконуваної програми PS4 у папку.</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.cpp" line="331"/>
 			<source>vkValidationCheckBox</source>
-			<translation>Aktiver Vulkan valideringslag:\nAktiverer et system som validerer tilstanden til Vulkan-rendereren og logger informasjon om dens indre tilstand. Dette vil redusere ytelsen og sannsynligvis endre emuleringens oppførsel.</translation>
+			<translation>Увімкнути шари валідації Vulkan:\nВключає систему, яка перевіряє стан рендерера Vulkan і логує інформацію про його внутрішній стан. Це знизить продуктивність і, ймовірно, змінить поведінку емуляції.</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.cpp" line="333"/>
 			<source>vkSyncValidationCheckBox</source>
-			<translation>Aktiver Vulkan synkronisering validering:\nAktiverer et system som validerer timingen av Vulkan-renderingsoppgaver. Dette vil redusere ytelsen og sannsynligvis endre emuleringens oppførsel.</translation>
+			<translation>Увімкнути валідацію синхронізації Vulkan:\nВключає систему, яка перевіряє таймінг завдань рендерингу Vulkan. Це знизить продуктивність і, ймовірно, змінить поведінку емуляції.</translation>
 		</message>
 		<message>
 			<location filename="../settings_dialog.cpp" line="335"/>
 			<source>rdocCheckBox</source>
-			<translation>Aktiver RenderDoc feilsøking:\nHvis aktivert, vil emulatoren gi kompatibilitet med Renderdoc for å tillate opptak og analyse av det nåværende renderte bildet.</translation>
+			<translation>Увімкнути налагодження RenderDoc:\nЯкщо увімкнено, емулятор забезпечить сумісність із Renderdoc, даючи змогу захоплювати й аналізувати поточні кадри під час рендерингу.</translation>
 		</message>
 	</context>
 	<context>
@@ -1302,47 +1317,47 @@
 		<message>
 			<location filename="../game_list_frame.cpp" line="34"/>
 			<source>Icon</source>
-			<translation>Ikon</translation>
+			<translation>Значок</translation>
 		</message>
 		<message>
 			<location filename="../game_list_frame.cpp" line="34"/>
 			<source>Name</source>
-			<translation>Navn</translation>
+			<translation>Назва</translation>
 		</message>
 		<message>
 			<location filename="../game_list_frame.cpp" line="34"/>
 			<source>Serial</source>
-			<translation>Serienummer</translation>
+			<translation>Серійний номер</translation>
 		</message>
 		<message>
 			<location filename="../game_list_frame.cpp" line="34"/>
 			<source>Region</source>
-			<translation>Region</translation>
+			<translation>Регіон</translation>
 		</message>
 		<message>
 			<location filename="../game_list_frame.cpp" line="34"/>
 			<source>Firmware</source>
-			<translation>Firmware</translation>
+			<translation>Прошивка</translation>
 		</message>
 		<message>
 			<location filename="../game_list_frame.cpp" line="35"/>
 			<source>Size</source>
-			<translation>Størrelse</translation>
+			<translation>Розмір</translation>
 		</message>
 		<message>
 			<location filename="../game_list_frame.cpp" line="35"/>
 			<source>Version</source>
-			<translation>Versjon</translation>
+			<translation>Версія</translation>
 		</message>
 		<message>
 			<location filename="../game_list_frame.cpp" line="35"/>
 			<source>Path</source>
-			<translation>Sti</translation>
+			<translation>Шлях</translation>
 		</message>
 		<message>
 			<location filename="../game_list_frame.cpp" line="38"/>
 			<source>Play Time</source>
-			<translation>Spilletid</translation>
+			<translation>Час у грі</translation>
 		</message>
 	</context>
 	<context>
@@ -1350,127 +1365,127 @@
 		<message>
 			<location filename="../check_update.cpp" line="34"/>
 			<source>Auto Updater</source>
-			<translation>Automatisk oppdaterer</translation>
+			<translation>Автооновлення</translation>
 		</message>
 		<message>
 			<location filename="../check_update.cpp" line="51"/>
 			<source>Error</source>
-			<translation>Feil</translation>
+			<translation>Помилка</translation>
 		</message>
 		<message>
 			<location filename="../check_update.cpp" line="64"/>
 			<source>Network error:</source>
-			<translation>Nettverksfeil:</translation>
+			<translation>Мережева помилка:</translation>
 		</message>
 		<message>
 			<location filename="../check_update.cpp" line="73"/>
 			<source>Failed to parse update information.</source>
-			<translation>Kunne ikke analysere oppdateringsinformasjonen.</translation>
+			<translation>Не вдалося розібрати інформацію про оновлення.</translation>
 		</message>
 		<message>
 			<location filename="../check_update.cpp" line="89"/>
 			<source>No pre-releases found.</source>
-			<translation>Fant ingen forhåndsutgivelser.</translation>
+			<translation>Попередніх версій не знайдено.</translation>
 		</message>
 		<message>
 			<location filename="../check_update.cpp" line="102"/>
 			<source>Invalid release data.</source>
-			<translation>Ugyldige utgivelsesdata.</translation>
+			<translation>Неприпустимі дані релізу.</translation>
 		</message>
 		<message>
 			<location filename="../check_update.cpp" line="142"/>
 			<source>No download URL found for the specified asset.</source>
-			<translation>Ingen nedlastings-URL funnet for den spesifiserte ressursen.</translation>
+			<translation>Не знайдено URL для завантаження зазначеного ресурсу.</translation>
 		</message>
 		<message>
 			<location filename="../check_update.cpp" line="148"/>
 			<source>Your version is already up to date!</source>
-			<translation>Din versjon er allerede oppdatert!</translation>
+			<translation>Вашу версію вже оновлено!</translation>
 		</message>
 		<message>
 			<location filename="../check_update.cpp" line="172"/>
 			<source>Update Available</source>
-			<translation>Oppdatering tilgjengelig</translation>
+			<translation>Доступне оновлення</translation>
 		</message>
 		<message>
 			<location filename="../check_update.cpp" line="187"/>
 			<source>Update Channel</source>
-			<translation>Oppdateringskanal</translation>
+			<translation>Канал оновлення</translation>
 		</message>
 		<message>
 			<location filename="../check_update.cpp" line="177"/>
 			<source>Current Version</source>
-			<translation>Gjeldende versjon</translation>
+			<translation>Поточна версія</translation>
 		</message>
 		<message>
 			<location filename="../check_update.cpp" line="178"/>
 			<source>Latest Version</source>
-			<translation>Nyeste versjon</translation>
+			<translation>Остання версія</translation>
 		</message>
 		<message>
 			<location filename="../check_update.cpp" line="179"/>
 			<source>Do you want to update?</source>
-			<translation>Vil du oppdatere?</translation>
+			<translation>Ви хочете оновитися?</translation>
 		</message>
 		<message>
 			<location filename="../check_update.cpp" line="193"/>
 			<source>Show Changelog</source>
-			<translation>Vis endringslogg</translation>
+			<translation>Показати журнал змін</translation>
 		</message>
 		<message>
 			<location filename="../check_update.cpp" line="198"/>
 			<source>Check for Updates at Startup</source>
-			<translation>Sjekk etter oppdateringer ved oppstart</translation>
+			<translation>Перевірка оновлень під час запуску</translation>
 		</message>
 		<message>
 			<location filename="../check_update.cpp" line="199"/>
 			<source>Update</source>
-			<translation>Oppdater</translation>
+			<translation>Оновитись</translation>
 		</message>
 		<message>
 			<location filename="../check_update.cpp" line="200"/>
 			<source>No</source>
-			<translation>Nei</translation>
+			<translation>Ні</translation>
 		</message>
 		<message>
 			<location filename="../check_update.cpp" line="223"/>
 			<source>Hide Changelog</source>
-			<translation>Skjul endringslogg</translation>
+			<translation>Приховати журнал змін</translation>
 		</message>
 		<message>
 			<location filename="../check_update.cpp" line="296"/>
 			<source>Changes</source>
-			<translation>Endringer</translation>
+			<translation>Журнал змін</translation>
 		</message>
 		<message>
 			<location filename="../check_update.cpp" line="310"/>
 			<source>Network error occurred while trying to access the URL</source>
-			<translation>Nettverksfeil oppstod mens du prøvde å få tilgang til URL</translation>
+			<translation>Сталася мережева помилка під час спроби доступу до URL</translation>
 		</message>
 		<message>
 			<location filename="../check_update.cpp" line="330"/>
 			<source>Download Complete</source>
-			<translation>Nedlasting fullført</translation>
+			<translation>Завантаження завершено</translation>
 		</message>
 		<message>
 			<location filename="../check_update.cpp" line="331"/>
 			<source>The update has been downloaded, press OK to install.</source>
-			<translation>Oppdateringen har blitt lastet ned, trykk OK for å installere.</translation>
+			<translation>Оновлення завантажено, натисніть OK для встановлення.</translation>
 		</message>
 		<message>
 			<location filename="../check_update.cpp" line="336"/>
 			<source>Failed to save the update file at</source>
-			<translation>Kunne ikke lagre oppdateringsfilen på</translation>
+			<translation>Не вдалося зберегти файл оновлення в</translation>
 		</message>
 		<message>
 			<location filename="../check_update.cpp" line="545"/>
 			<source>Starting Update...</source>
-			<translation>Starter oppdatering...</translation>
+			<translation>Початок оновлення...</translation>
 		</message>
 		<message>
 			<location filename="../check_update.cpp" line="619"/>
 			<source>Failed to create the update script file</source>
-			<translation>Kunne ikke opprette oppdateringsskriptfilen</translation>
+			<translation>Не вдалося створити файл скрипта оновлення</translation>
 		</message>
 	</context>
 </TS>
